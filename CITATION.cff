@@ -1,53 +1,25 @@
+cff-version: 1.2.0
+title: "Quantum Algorithms for Disaster Prediction and Management"
+message: "If you use this repository, data, or code in your research, please cite it as follows."
+type: software
 
----
+authors:
+  - family-names: Desai
+    given-names: Aryaveer
+    affiliation: "MVM International School, India; Harvard Summer School"
 
-## Data Availability
+year: 2026
 
-The datasets generated and/or analyzed during this study are publicly available in this repository.
+repository-code: "https://github.com/ARYAVEER77/Quantum-Algorithms-Disaster-Management"
 
-### Raw Data
+license: MIT
 
-The raw disaster dataset is stored under:
-
-📁 `data/raw/`
-
-This includes:
-
-- **emdat_1970_2021.csv** — disaster event data derived from the EM-DAT database (1970–2021), provided in CSV format for direct accessibility and reproducibility.
-
-The EM-DAT dataset originates from the **Centre for Research on the Epidemiology of Disasters (CRED)** and is used strictly under academic research terms.
-
-Detailed dataset provenance, structure, and documentation are provided in:
-
-➡️ `data/raw/README.md`
-
-### Processed Data
-
-Processed datasets generated from the raw data are stored under:
-
-📁 `data/processed/`
-
-All preprocessing and transformation steps are explicitly documented in:
-
-➡️ `src/cleaning.py`
-
----
-
-## Reproducibility
-
-All experiments were conducted with reproducibility as a primary design goal.
-
-- **Python version:** 3.10  
-- **Quantum simulation framework:** Qiskit  
-- **Random seed:** 42 (fixed across experiments where applicable)
-
-All scripts required to reproduce the reported results are included in the repository.
-
----
-
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ARYAVEER77/quantum-algorithms-disaster-management.git
-   cd quantum-algorithms-disaster-management
+preferred-citation:
+  type: article
+  title: "Quantum Algorithms for Disaster Prediction and Management"
+  authors:
+    - family-names: Desai
+      given-names: Aryaveer
+  journal: "Neural Computing and Applications"
+  year: 2026
+  publisher: "Springer Nature"
