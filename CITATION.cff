@@ -1,10 +1,53 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Desai"
-  given-names: "Aryaveer"
-  affiliation: "MVM International School India and Harvard Summer School"
-title: "Quantum-Algorithms-Disaster-Management"
-version: 1.0.0
-date-released: 2025-01-01
-url: "https://github.com/ARYAVEER77/Quantum-Algorithms-Disaster-Management"
+
+---
+
+## Data Availability
+
+The datasets generated and/or analyzed during this study are publicly available in this repository.
+
+### Raw Data
+
+The raw disaster dataset is stored under:
+
+📁 `data/raw/`
+
+This includes:
+
+- **emdat_1970_2021.csv** — disaster event data derived from the EM-DAT database (1970–2021), provided in CSV format for direct accessibility and reproducibility.
+
+The EM-DAT dataset originates from the **Centre for Research on the Epidemiology of Disasters (CRED)** and is used strictly under academic research terms.
+
+Detailed dataset provenance, structure, and documentation are provided in:
+
+➡️ `data/raw/README.md`
+
+### Processed Data
+
+Processed datasets generated from the raw data are stored under:
+
+📁 `data/processed/`
+
+All preprocessing and transformation steps are explicitly documented in:
+
+➡️ `src/cleaning.py`
+
+---
+
+## Reproducibility
+
+All experiments were conducted with reproducibility as a primary design goal.
+
+- **Python version:** 3.10  
+- **Quantum simulation framework:** Qiskit  
+- **Random seed:** 42 (fixed across experiments where applicable)
+
+All scripts required to reproduce the reported results are included in the repository.
+
+---
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ARYAVEER77/quantum-algorithms-disaster-management.git
+   cd quantum-algorithms-disaster-management
